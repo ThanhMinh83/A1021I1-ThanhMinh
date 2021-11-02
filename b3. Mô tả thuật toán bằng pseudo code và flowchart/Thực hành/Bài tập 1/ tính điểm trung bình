@@ -1,0 +1,8 @@
+Pseudo code: thuật toán tính điểm trung bình
+Begin
+    Input Toán, Lý, Hoá
+    Average = (Toán + Lý + Hoá)/3
+    Display Average
+End
+
+Sơ đồ flowchart:

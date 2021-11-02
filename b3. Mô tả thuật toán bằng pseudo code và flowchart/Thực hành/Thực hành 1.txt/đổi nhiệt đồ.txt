@@ -5,5 +5,5 @@ Begin
     Display F
 End
 
-sơ đồ Flowcchart
+Sơ đồ Flowcchart
 
