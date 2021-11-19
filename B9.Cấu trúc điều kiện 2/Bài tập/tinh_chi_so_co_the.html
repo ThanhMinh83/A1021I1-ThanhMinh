@@ -6,21 +6,21 @@
 </head>
 <body>
 <script>
-let  height  =  parseInt (prompt ('Nhập chiều cao của bạn:'  +  '(centimet)')) ;
-let  weight  =  parseInt (prompt ('Nhập cân nặng của bạn:' +  '(kilogam') ) ;
+let  height  =  parseInt (prompt ('Nhập chiều cao của bạn:')) ;
+let  weight  =  parseInt (prompt ('Nhập cân nặng của bạn:')) ;
 let  BMI  =   parseFloat (weight /( height ^ 2 ));
 
 if  (BMI  <  18,5) {
-alert  ( 'BMI =' +  BMI  +  'Trạng thái không tốt') ;
+document.write( 'BMI =' +  BMI  +  'Trạng thái không tốt') ;
 }
 else  if  (BMI  <  25) {
-alert  ('BMI =' +  BMI  +  'Trạng thái tốt') ;
+document.write('BMI =' +  BMI  +  'Trạng thái tốt') ;
 }
 else  if  (BMI  <  30) {
-alert  ('BMI ='  + BMI  +  'Trạng thái không tốt')
+document.write('BMI ='  + BMI  +  'Trạng thái không tốt')
 }
 else  {
-alert  ('BMI ='  + BMI  +  'Trạng thái tệ') ;
+document.write('BMI ='  + BMI  +  'Trạng thái tệ') ;
 }
 </script>
 </body>
