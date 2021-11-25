@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let average=0;
+    let i;
+    let j=0;
+    let numF = 0;
+    let numFi = 1;
+    for (i=0;i<20;i++){
+        if (i==0){
+                average+=i;
+            }
+        else if (i==1){
+                average+=i;
+            }
+        else {
+                j = numF + numFi;
+                numF = numFi;
+                numFi=j;
+                average+=j;
+            }
+    }
+    document.write('Tổng 20 số đầu tiên của dãy Fibonacci là: ' + average);
+</script>
+</body>
+</html>

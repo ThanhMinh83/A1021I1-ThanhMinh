@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function guesGame(){
+        let numMin = parseInt(prompt('Nhập khoảng bạn muốn đoán: (giá trị dưới) '));
+        let numMax = parseInt(prompt('Nhập khoảng bạn muốn đoán: (giá trị trên) '));
+        let a = Math.floor(Math.random() * ((numMax-numMin) +1) )+numMin;
+        console.log(a);
+        alert ('Bạn có 3 lượt đoán, lần đoán sẽ gợi ý cho bạn, nếu đoán sai cả 3 lần, trò chơi sẽ bắt đầu lại.');
+        alert ('Bạn đã sẵn sàng??');
+        let b;
+        let i=1;
+        do {
+            b = parseInt(prompt('Mời bạn nhập số'));
+            if (b>a){
+                alert('Số bạn nhập hơi lớn');
+                i++;
+            }
+            else if (a>b){
+                alert ('Số bạn nhập hơi thấp');
+                i++
+            }
+            else if (a==b) {
+                i=10;
+            }
+            else{
+                i++;
+            }
+        }while (i<=3)
+        if (i==10){
+            alert('Chúc mừng bạn đã đoán chính xác');
+        }
+        else {
+            alert('Chúc bạn may mắn lần sau. Click vào CHƠI NÀO!! để bắt đầu game mới!');
+        }
+    }
+</script>
+</body>
+</html>

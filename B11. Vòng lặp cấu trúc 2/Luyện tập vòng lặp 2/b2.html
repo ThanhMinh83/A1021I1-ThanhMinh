@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let money = parseFloat(prompt('Nhập số tiền cần gởi:'));
+    let month = parseFloat(prompt('Nhập số tháng cần gởi'));
+    //  lãi suất hàng tháng là 3.6%
+    let tienlai;
+    let tong;
+    let i=0;
+    do {
+        tienlai = money*3.6/100;
+        tong = tienlai+money;
+        money = tong;
+        i++;
+    }
+    while (i<=month)
+    document.write ( 'Số tiền lẫn lãi sau ' + month+' tháng là ' +parseFloat(tong).toFixed(2) + ' VND');
+</script>
+</body>
+</html>

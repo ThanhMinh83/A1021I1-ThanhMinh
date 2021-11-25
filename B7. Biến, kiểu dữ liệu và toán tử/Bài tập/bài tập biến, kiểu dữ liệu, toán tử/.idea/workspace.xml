@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4770a45-0f39-4634-8078-084cfe3b653a" name="Default Changelist" comment="" />
+    <list default="true" id="b4770a45-0f39-4634-8078-084cfe3b653a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../B11. Vòng lặp cấu trúc 2/Bài tập/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../B11. Vòng lặp cấu trúc 2/Bài tập/sinh_bang_cuu_chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../B11. Vòng lặp cấu trúc 2/Bài tập/sinh_bang_cuu_chuong.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637315745926</updated>
       <workItem from="1637315749440" duration="58000" />
+      <workItem from="1637580816420" duration="20000" />
     </task>
     <servers />
   </component>
